@@ -2,6 +2,7 @@
     {
         "ConfigFile":"./ShooterGame/Saved/Config/LinuxServer/GameUserSettings.ini",
         "AutoMap":true,
+        "Importable":true,
         "ConfigType":"ini",
         "ConfigFormat":"{0}=\"{1}\"",
         "ConfigFormatRegex":"^(?<key>.+?)=\"?(?<value>.+?)?\"?$"
@@ -9,11 +10,13 @@
     {
         "ConfigFile":"./ShooterGame/Saved/Config/LinuxServer/Game.ini",
         "AutoMap":true,
+        "Importable":true,
         "ConfigType":"ini"
     },
     {
         "ConfigFile":"./ShooterGame/Saved/Config/WindowsServer/GameUserSettings.ini",
         "AutoMap":true,
+        "Importable":true,
         "ConfigType":"ini",
         "ConfigFormat":"{0}=\"{1}\"",
         "ConfigFormatRegex":"^(?<key>.+?)=\"?(?<value>.+?)?\"?$"
@@ -21,6 +24,7 @@
     {
         "ConfigFile":"./ShooterGame/Saved/Config/WindowsServer/Game.ini",
         "AutoMap":true,
+        "Importable":true,
         "ConfigType":"ini"
     }
 ]
